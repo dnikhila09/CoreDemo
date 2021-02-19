@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class GreatestOfTwo {
+
+	public static void main(String[] args) {
+		{
+			int a,b;
+			Scanner s =new Scanner(System.in);
+			
+			System.out.println("enter 2 numbers");
+			a=s.nextInt();
+		    b=s.nextInt();
+			
+			if(a>b)
+			{
+				System.out.println(a+"is greatst");
+		
+			}
+			else
+			{
+				System.out.println(b+"gretets");
+			}
+		}
+
+	}
+
+}
